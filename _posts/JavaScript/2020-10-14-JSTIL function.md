@@ -1,12 +1,13 @@
 ---
 title: "JavaScript TIL - functions"
 categories:
-  - JavaScript
+    - JavaScript
 tags:
-  - JavaScript
-  -TIL
+    - JavaScript
+    - TIL
 comments: true
 ---
+
 
 ### Parameter
 
