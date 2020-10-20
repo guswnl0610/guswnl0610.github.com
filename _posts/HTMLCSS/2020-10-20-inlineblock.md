@@ -2,9 +2,9 @@
 
 title: "HTML&CSS display 속성"
 categories:
-    - HTML&CSS
+    - HTMLCSS
 tags:
-    - HTML&CSS
+    - HTMLCSS
     - TIL
 comments: true
 toc: true
