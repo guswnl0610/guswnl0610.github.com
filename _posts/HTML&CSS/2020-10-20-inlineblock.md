@@ -1,10 +1,10 @@
 ---
 
-title: "HTML/CSS display 속성"
+title: "HTML&CSS display 속성"
 categories:
-    - HTML-CSS
+    - HTML&CSS
 tags:
-    - HTML-CSS
+    - HTML&CSS
     - TIL
 comments: true
 toc: true
