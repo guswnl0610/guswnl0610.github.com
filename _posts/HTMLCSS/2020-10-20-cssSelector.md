@@ -1,6 +1,6 @@
 ---
 
-title: "HTML&CSS box-sizing, margin auto, table"
+title: "HTML&CSS CSS selector"
 categories:
     - HTMLCSS
 tags:
