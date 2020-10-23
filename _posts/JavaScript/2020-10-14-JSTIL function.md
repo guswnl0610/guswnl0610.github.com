@@ -1,5 +1,5 @@
 ---
-title: "JavaScript TIL - functions"
+title: "JavaScript - functions"
 categories:
     - JavaScript
 tags:
