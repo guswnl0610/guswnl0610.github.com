@@ -1,5 +1,5 @@
 ---
-title: "Git bash 명령어 모음"
+title: "git 명령어 모음"
 categories:
     - git
 tags:
@@ -7,13 +7,14 @@ tags:
     - gitbash
 comments: true
 description: 맨날 까먹어서 기록용으로 작성해두는 포스트
+toc: true
 ---
 
 
 
 
 
-git init
+### git init
 
 ```
 git init
@@ -25,7 +26,7 @@ git clone 주소
 
   
 
-git add
+### git add
 
 ```
 git add 파일명
@@ -37,7 +38,7 @@ git add .
 
   
 
-git status
+### git status
 
 ```
 git status
@@ -46,7 +47,7 @@ git status
 
   
 
-git commit
+### git commit
 
 ```
 git commit -m "커밋 메세지"
@@ -58,7 +59,7 @@ git log
 
   
 
-git remote
+### git remote
 
 ```
 git remote add origin 원격저장소주소
@@ -71,7 +72,7 @@ git remote -v
   
 
 ```
-git push 원격저장소이름 브랜치이름
+git push origin 브랜치이름
 //커밋한 코드 원격저장소로 보내기 ex) git push origin main
 
 git fetch
@@ -83,7 +84,7 @@ git pull
 
   
 
-브랜치 관련
+### 브랜치 관련
 
 ```
 git checkout 브랜치이름
@@ -100,12 +101,13 @@ git branch -a
 
 git branch -d 브랜치이름
 //브랜치 삭제
+
+git branch -M main
+//default branch를 master에서 main으로 변경
 ```
 
 
 
-  
-
-  
+​    
 
 아마도 꾸준히 업데이트 될 예정입니다
