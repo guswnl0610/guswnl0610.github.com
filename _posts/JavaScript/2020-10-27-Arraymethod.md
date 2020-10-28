@@ -119,7 +119,9 @@ umbrella_academy.sort((a, b)=>{
 
 ### 배열 합치기 - concat
 
-```js 
+
+
+```js
 const arr1 = ['a', 'b', 'c'];
 const arr2 = ['d', 'e', 'f'];
 const arr3 = arr1.concat(arr2);
@@ -131,11 +133,15 @@ console.log(arr3); // [ 'a', 'b', 'c', 'd', 'e', 'f' ]
 console.log(arr1.concat(1,[2,3])); // [ 'a', 'b', 'c', 1, 2, 3 ]
 ```
 
+
+
 ### 배열 잘라서 떼내기 - slice
 
 배열의 begin 인덱스부터 end 인덱스까지(end는 미포함) 복사본을 만들어서 리턴합니다. 
 
-```js 
+
+
+```js
 const animals = ['🐶', '🐱', '🐭', '🐹', '🐰'];
 
 console.log(animals.slice(2)); // [ '🐭', '🐹', '🐰' ]
@@ -143,6 +149,9 @@ console.log(animals.slice(2,5)); // [ '🐭', '🐹', '🐰' ]
 console.log(animals.slice(0,2)); // [ '🐶', '🐱' ]
 console.log(animals.slice(2,0)); // []
 ```
+
+
+
 
 ### 배열의 항목들 순환하기 - forEach
 
