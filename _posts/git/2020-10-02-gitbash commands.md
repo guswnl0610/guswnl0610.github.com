@@ -1,18 +1,15 @@
 ---
-title: "git 명령어 모음"
+title: 'git 명령어 모음'
 categories:
-    - git
+  - git
 tags:
-    - git
-    - gitbash
+  - git
+  - gitbash
 comments: true
 description: 맨날 까먹어서 기록용으로 작성해두는 포스트
 toc: true
+toc_sticky: true
 ---
-
-
-
-
 
 ### git init
 
@@ -24,8 +21,6 @@ git clone 주소
 //github에서 가져오기 ex) git clone https://github.com/guswnl0610/sample
 ```
 
-  
-
 ### git add
 
 ```
@@ -36,16 +31,12 @@ git add .
 //현재 디렉토리 내 모든 파일 추가
 ```
 
-  
-
 ### git status
 
 ```
 git status
 //현재 상태를 볼 수 있음
 ```
-
-  
 
 ### git commit
 
@@ -57,8 +48,6 @@ git log
 //커밋 이력 조회
 ```
 
-  
-
 ### git remote
 
 ```
@@ -68,8 +57,6 @@ git remote add origin 원격저장소주소
 git remote -v
 //연결된 저장소 확인
 ```
-
-  
 
 ```
 git push origin 브랜치이름
@@ -81,8 +68,6 @@ git fetch
 git pull
 //최신 코드 가져와서 merge하기
 ```
-
-  
 
 ### 브랜치 관련
 
@@ -106,8 +91,6 @@ git branch -M main
 //default branch를 master에서 main으로 변경
 ```
 
-
-
-​    
+​
 
 아마도 꾸준히 업데이트 될 예정입니다

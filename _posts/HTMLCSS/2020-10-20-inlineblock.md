@@ -1,15 +1,14 @@
 ---
-
-title: "HTML&CSS display 속성"
+title: 'HTML&CSS display 속성'
 categories:
-    - HTMLCSS
+  - HTMLCSS
 tags:
-    - HTMLCSS
-    - TIL
+  - HTMLCSS
+  - TIL
 comments: true
 toc: true
+toc_sticky: true
 ---
-
 
 ## Display : inline? block?
 
@@ -27,7 +26,7 @@ toc: true
 
 p 태그와 span 태그로 입력하면 위 그림과 같이 출력됩니다.
 
-p태그로 감쌌을때 한 줄이 띄워지는 이유는 
+p태그로 감쌌을때 한 줄이 띄워지는 이유는
 
 ![](https://i.ibb.co/MCPMVR6/2020-10-20-2-21-02.png)
 
@@ -100,5 +99,3 @@ p {
 이렇게 변하게 됩니다. Width,height 외에도 padding margin값을 줄 수 있다는 차이도 있습니다!!
 
 둘 중 필요한 용도에 맞게 사용하면 될 것 같습니다!
-
-
