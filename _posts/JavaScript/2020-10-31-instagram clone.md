@@ -152,7 +152,7 @@ const filtered_data = my_data.filter((user) => user.user_id.includes(input_value
 
 - 나름의 반응형
 
-<img src="https://i.ibb.co/RDPHhhZ/relative.gif" style="zoom:80%;" />
+<img src="https://i.ibb.co/y8rnSSf/image.gif" />
 
 먼저 우측의 프로필이 사라지고, 피드의 크기가 창에 맞춰서 줄어들고, 더 작아지면 네비게이션 바의 검색창이 사라지게 했습니다.
 
