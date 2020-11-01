@@ -1,7 +1,6 @@
 ---
-title: 'Vanilla JS로 인스타그램 클론해보기'
+÷title: 'Vanilla JS로 인스타그램 클론해보기'
 categories:
-  - HTMLCSS
   - JavaScript
 tags:
   - JavaScript
