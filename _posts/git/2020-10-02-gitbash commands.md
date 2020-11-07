@@ -25,10 +25,10 @@ git clone 주소
 
 ```
 git add 파일명
-//파일명에 해당하는 파일을 추가
+//파일명에 해당하는 파일을 staging area에 추가
 
 git add .
-//현재 디렉토리 내 모든 파일 추가
+//현재 디렉토리 내 모든 파일 staging area에 추가
 ```
 
 ### git status
@@ -89,8 +89,11 @@ git branch -d 브랜치이름
 
 git branch -M main
 //default branch를 master에서 main으로 변경
+
+git merge 브랜치이름
+//현재 브랜치로 선택한 브랜치를 합친다.
 ```
 
-​
+
 
 아마도 꾸준히 업데이트 될 예정입니다
