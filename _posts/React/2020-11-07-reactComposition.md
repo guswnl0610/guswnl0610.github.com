@@ -127,7 +127,7 @@ ReactDOM.render(
 
 ```
 
-<Contacts />와 <Chat />와 같은 React element 또한 객체이기 때문에 props로 전달이 가능합니다!!
+Contacts 와 Chat 같은 React element 또한 객체이기 때문에 props로 전달이 가능합니다!!
 
 
 
