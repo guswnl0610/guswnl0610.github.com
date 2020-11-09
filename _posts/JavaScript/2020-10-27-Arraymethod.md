@@ -170,6 +170,24 @@ animals.splice(1); //인덱스 1부터 싹 제거
 console.log(animals); // [ '🐶' ]
 ```
 
+### 배열 안의 모든 요소가 판별 함수 통과하는지 체크 - every
+
+```js
+let fruits = ['apple', 'banana', 'melon', 'watermelon', 'orange', 'grape', 'pear'];
+
+fruits.every((fruit) => fruit.length >= 3); // true
+fruits.every((fruit) => fruit.length >= 5); // false
+```
+
+### 배열 안의 어떤 요소라도 판별 함수 통과하는지 체크 - some
+
+```js
+let fruits = ['apple', 'banana', 'melon', 'watermelon', 'orange', 'grape', 'pear'];
+
+fruits.some((fruit) => fruit.length >= 11); // false
+fruits.some((fruit) => fruit.length >= 10); // true
+```
+
 ### 필터링하기 - filter
 
 ```js
