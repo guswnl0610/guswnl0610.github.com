@@ -140,3 +140,4 @@ componentDidUpdate(){
 
 setState의 updater 함수로 전달된 state와 props는 항상 최신의 값임이 보장됩니다. 따라서 이번에는 콘솔에 4가 찍히게 됩니다!
 
+따라서 다음 state의 값이 이전 state 값에 의존한다면 updater 함수 형태를 사용하는 것이 좋습니다!
