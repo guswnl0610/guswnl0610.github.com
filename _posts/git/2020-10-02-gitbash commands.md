@@ -94,6 +94,28 @@ git merge 브랜치이름
 //현재 브랜치로 선택한 브랜치를 합친다.
 ```
 
+### git stash
+
+```
+git stash
+//변경사항을 임시저장 (stash 생성)
+
+git stash list
+//stash 리스트 확인
+
+git stash apply
+//가장 최근의 stash 적용
+
+git stash apply [stash이름]
+//선택한 stash 적용. ex) git stash apply stash@{1}
+
+git stash pop
+//가장 최근의 stash를 적용하면서 스택에서 제거
+
+git stash drop
+//가장 최근의 stash 제거
+```
+
 
 
 아마도 꾸준히 업데이트 될 예정입니다
